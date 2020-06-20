@@ -4,7 +4,7 @@
   "description": "Template and playground for a cornerstone extension.",
   "main": "lib/dist.js",
   "scripts": {
-    "build": "webpack --env dev && webpack --env build && npm run test",
+    "build": "webpack --env dev && webpack --env build",
     "dev": "webpack-dev-server --config ./webpack.dev.js --watch",
     "test": "mocha --require babel-register --colors ./test/*.spec.js",
     "test:watch": "mocha --require babel-register --colors -w ./test/*.spec.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JamesAPetts/cornerstone-extension-template"
+    "url": "https://github.com/cornerstonejs/cornerstone-extension-template"
   },
   "keywords": [
     "webpack",
@@ -24,12 +24,12 @@
     "umd",
     "commonjs"
   ],
-  "author": "Krasimir Tsonev",
+  "author": "JamesAPetts",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JamesAPetts/cornerstone-extension-templat/issues"
+    "url": "https://github.com/cornerstonejs/cornerstone-extension-templat/issues"
   },
-  "homepage": "https://github.com/JamesAPetts/cornerstone-extension-templat",
+  "homepage": "https://github.com/cornerstonejs/cornerstone-extension-templat",
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.51",
     "@babel/core": "^7.0.0-beta.51",
