@@ -1,0 +1,11 @@
+{
+  "presets": ["env", "@babel/preset-react"],
+  "plugins": ["babel-plugin-add-module-exports", "syntax-async-functions", "@babel/plugin-transform-runtime", "@babel/plugin-proposal-class-properties"],
+  "env": {
+    "test": {
+      "plugins": [
+        ["istanbul"]
+      ]
+    }
+  }
+}
